@@ -1,0 +1,6 @@
+2025-07-19 00:38:23,405 - INFO - None
+2025-07-19 00:39:14,880 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-19 00:42:14,010 - INFO - hello--- None
+2025-07-19 00:42:41,898 - INFO - hello--- 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
+2025-07-19 00:43:15,123 - INFO - hello--- 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
+2025-07-19 00:43:43,337 - INFO - hello--- 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
