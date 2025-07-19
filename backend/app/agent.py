@@ -68,14 +68,15 @@ sql_chain = prompt | llm
 # Do this once
 # schema_text = get_schema_text(db)
 
-schema_path = Path(__file__).parent / "schema.txt"
-with open(schema_path, "r") as f:
-    schema_text = f.read()
+# schema_path = Path(__file__).parent / "schema.txt"
+# with open(schema_path, "r") as f:
+#     schema_text = f.read()
 
 
 # 2. Answering Node
 def answer_node(state):
     retry_count = state.get("retry_count", 0)
+    schema_text = state.get("schema_text", "")
     if retry_count > 3:
         return {"error": "Max retry limit hit", "retry": False}
 
@@ -293,10 +294,11 @@ app = graph.compile()
 
 
 # Run it
-def process_query(query, request_id=None):
+def process_query(query, schema_text, request_id=None):
     global app
     state = {
         "question": query,
+        "schema_text": schema_text,
         "retry_count": 0,  # always start with zero
         "answer": None,
         "error": None,

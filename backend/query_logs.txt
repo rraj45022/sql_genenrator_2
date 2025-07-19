@@ -58,3 +58,93 @@ retry: False
 retry_count: 0
 table_column_map: None
 ============================================================
+timestamp: 2025-07-19T10:58:55.057765
+request_id: None
+question: write a query to find all the data of customer
+generated_sql: SELECT * FROM customers;
+final_output: ✅ Validated: SELECT * FROM customers;
+error: None
+retry: False
+retry_count: 0
+table_column_map: None
+============================================================
+timestamp: 2025-07-19T10:59:28.400209
+request_id: None
+question: write a query to find all the columns present in the schema
+generated_sql: SELECT name AS table_name, sql FROM sqlite_master WHERE type='table' AND name NOT LIKE 'sqlite_%';
+final_output: ✅ Validated: SELECT name AS table_name, sql FROM sqlite_master WHERE type='table' AND name NOT LIKE 'sqlite_%';
+error: None
+retry: False
+retry_count: 0
+table_column_map: None
+============================================================
+timestamp: 2025-07-19T11:04:37.330370
+request_id: None
+question: write a query to find all the data of customer
+generated_sql: SELECT * FROM customers;
+final_output: ✅ Validated: SELECT * FROM customers;
+error: None
+retry: False
+retry_count: 0
+table_column_map: None
+============================================================
+timestamp: 2025-07-19T11:22:48.905516
+request_id: None
+question: write a query to find all the data of customer
+generated_sql: SELECT * FROM customers;
+final_output: ✅ Validated: SELECT * FROM customers;
+error: None
+retry: False
+retry_count: 0
+table_column_map: None
+============================================================
+timestamp: 2025-07-19T11:42:06.704157
+request_id: None
+question: write a query to find all the data of customer
+generated_sql: SELECT * FROM customers;
+final_output: ✅ Validated: SELECT * FROM customers;
+error: None
+retry: False
+retry_count: 0
+table_column_map: None
+============================================================
+timestamp: 2025-07-19T11:43:28.611984
+request_id: None
+question: write a query to find all the data of customer
+generated_sql: SELECT * FROM customers;
+final_output: ✅ Validated: SELECT * FROM customers;
+error: None
+retry: False
+retry_count: 0
+table_column_map: None
+============================================================
+timestamp: 2025-07-19T11:45:19.329793
+request_id: None
+question: write a query to find all the data of customer
+generated_sql: SELECT * FROM customer;
+final_output: ✅ Validated: SELECT * FROM customer;
+error: None
+retry: False
+retry_count: 0
+table_column_map: None
+============================================================
+timestamp: 2025-07-19T11:49:39.142677
+request_id: None
+question: write a query to find all the data of customer
+generated_sql: SELECT * FROM customer;
+final_output: ✅ Validated: SELECT * FROM customer;
+error: None
+retry: False
+retry_count: 0
+table_column_map: None
+============================================================
+timestamp: 2025-07-19T11:52:24.410827
+request_id: None
+question: write a query to find all the data of customer
+generated_sql: SELECT id, name, email, phone, address FROM customers;
+final_output: ✅ Validated: SELECT id, name, email, phone, address FROM customers;
+error: None
+retry: False
+retry_count: 0
+table_column_map: None
+============================================================
