@@ -1,17 +1,1 @@
-2025-07-19 00:38:23,405 - INFO - None
-2025-07-19 00:39:14,880 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-19 00:42:14,010 - INFO - hello--- None
-2025-07-19 00:42:41,898 - INFO - hello--- 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
-2025-07-19 00:43:15,123 - INFO - hello--- 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
-2025-07-19 00:43:43,337 - INFO - hello--- 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
-2025-07-19 10:56:29,307 - ERROR - Form data requires "python-multipart" to be installed. 
-You can install "python-multipart" with: 
 
-pip install python-multipart
-
-2025-07-19 10:58:55,016 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-19 10:59:28,397 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-19 11:04:37,326 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-19 11:22:48,852 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-19 11:42:06,685 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-07-19 11:43:28,589 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
